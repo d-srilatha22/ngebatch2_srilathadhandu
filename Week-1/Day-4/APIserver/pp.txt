@@ -1,0 +1,47 @@
+const getPersonalHelloMessage = () => {
+  //Complete the fetch that sends a request for a personal message
+  // fetch('http://localhost:8080/hello/YourName')
+  fetch ('http://localhost:8080/hello/person',{
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      person: 'Srilatha'
+    })
+  })
+    .then(response => {
+      if (response.status >= 400) {
+        throw new Error(`error status: ${response.status}`)
+      }
+      return response.text()
+    })
+    .then(data => responseDisplay!.innerText = data)
+    .catch(error => console.log('there was an error:', error))
+}
+
+const postProfileMessage = () => {
+  fetch('http://localhost:8080/profile', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      person: 'Pudding',
+      age: 3
+    })
+  })
+    .then(response => {
+      if (response.status >= 400) {
+        throw new Error(`error status: ${response.status}`)
+      }
+      return response.text()
+    })
+    .then(data => responseDisplay!.innerText = data)
+    .catch(error => console.log('there was an error:', error))
+}
+
+helloButton!.addEventListener('click', getHelloMessage)
+errorButton!.addEventListener('click', getErrorMessage)
+paramButton!.addEventListener('click', getPersonalHelloMessage)
+postButton!.addEventListener('click', postProfileMessage)

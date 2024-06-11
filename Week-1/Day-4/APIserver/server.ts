@@ -56,15 +56,20 @@ app.get('/users/byid', (req,res) =>{
 
 });
 
+app.use(express.json());
 app.post('/loginUser', (req,res) =>{
 
     console.log("This is the POST Method ", req.body);
     const obj = req.body.user;
-    //res.json({result:obj});
-    app.use(express.json());
-
+    res.json({result:obj});
 });
 
+app.use(express.json());
+app.post('/createproduct', (req,res) =>{
+    console.log("This is the create product", req.body);
+    const prod= req.body.product;
+    res.json({Product1:prod});
+})
 
 //4.listen to a port
 
