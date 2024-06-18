@@ -16,12 +16,7 @@ describe("To test the add module", ()=>{
         expect(result).toBe(79);
 
     })
-    // it("add two float numbers", ()=>{
-
-    // })
-    // it("add two strings",()=>{
-
-    // })
+    
 })
 
 describe("To test the add module with one pos and one neg", ()=>{
@@ -40,10 +35,5 @@ describe("To test the add module with one pos and one neg", ()=>{
         expect(result).toBe(30);
 
     })
-    // it("add two float numbers", ()=>{
 
-    // })
-    // it("add two strings",()=>{
-
-    // })
 })
