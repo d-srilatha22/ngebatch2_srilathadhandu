@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Greeter, {Hello} from './components/greeter'
+import StateDemo from './components/statedemo'
 
 
 
@@ -15,6 +16,7 @@ function App() {
     <Greeter/>
     <Greeter/>
     <Hello/>
+    <StateDemo/>
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />

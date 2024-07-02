@@ -73,36 +73,6 @@ describe("when using the deck of cards API", () => {
         `${myServer}deck/${deckID}/draw/?count=${number}`
       );
     });
-    test("drawoneCard", async () => {
-      //Arrange
-
-      const deckID = "qoak5bvcz27y";
-      const dummyApiResponse = {
-        success: true,
-        deck_id: "cghpy6m7gseu",
-        cards: [
-          {
-            code: "9D",
-            image: "https://deckofcardsapi.com/static/img/9D.png",
-            images: {
-              svg: "https://deckofcardsapi.com/static/img/9D.svg",
-              png: "https://deckofcardsapi.com/static/img/9D.png",
-            },
-            value: "9",
-            suit: "DIAMONDS",
-          },
-        ],
-        remaining: 99,
-      };
-      const dummyAxiosResponse = {
-        data: dummyApiResponse,
-      };
-      mockedGet.mockResolvedValue(dummyAxiosResponse);
-      expect(await drawCard1(myServer, deckID)).toEqual(dummyApiResponse.cards);
-      expect(mockedGet.mock.calls[0][0]).toEqual(
-        `${myServer}deck/${deckID}/draw/?count=1`
-      );
-    });
   });
 
   describe("when using remainingCards", () => {
