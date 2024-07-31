@@ -1,0 +1,84 @@
+[2024-07-03 06:54:15.677] [      8ms] [/root/relational-postgres] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-07-03 07:21:17.104] [     23ms] [/root/relational-postgres/exercises] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-07-03 07:24:57.343] [      8ms] [/root/relational-postgres/exercises/relational-express-postgres/app] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-07-03 07:25:20.360] [      8ms] [/root/relational-postgres/exercises/relational-express-postgres/app] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-07-03 07:25:34.352] [     11ms] [/root/relational-postgres/exercises/relational-express-postgres/app] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-07-03 07:25:36.403] [      8ms] [/root/relational-postgres/exercises/relational-express-postgres/app] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-07-03 07:25:37.425] [      9ms] [/root/relational-postgres/exercises/relational-express-postgres/app] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-07-03 10:07:19.042] [     11ms] [/root/relational-postgres/exercises/relational-express-postgres] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-07-03 11:21:13.961] [     10ms] [/root/relational-postgres/exercises/relational-express-postgres/db-scripts] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-07-03 11:21:17.520] [     12ms] [/root/relational-postgres/exercises/relational-express-postgres/db-scripts] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-07-03 11:21:22.755] [     13ms] [/root/relational-postgres/exercises/relational-express-postgres/db-scripts] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-07-03 11:21:28.028] [     11ms] [/root/relational-postgres/exercises/relational-express-postgres/db-scripts] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-07-03 11:23:12.580] [      8ms] [/root/relational-postgres/exercises/relational-express-postgres] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+
+[2024-07-03 11:26:46.817] [      8ms] [/root/relational-postgres/exercises/relational-express-postgres/app] git rev-parse --show-toplevel • FAILED
+
+Error: Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel
+fatal: not a git repository (or any of the parent directories): .git
+
+

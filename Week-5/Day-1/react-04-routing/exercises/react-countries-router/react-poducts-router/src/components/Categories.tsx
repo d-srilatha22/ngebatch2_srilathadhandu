@@ -1,7 +1,8 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function Categories() {
   const [cats, setCats] = useState([]);
+  const [selectedcat, setSelectedcat] = useState('electronics');
 
   useEffect(() => {
     const getData = async () => {
@@ -20,14 +21,26 @@ export default function Categories() {
     getData();
   }, []);
 
+  const handleselect = (e:any) => {
+    const selectedCat = e.target.value;
+    setSelectedcat(selectedCat);
+     if (selectedCat) {
+       window.location.href = `/${selectedCat}`;
+     }
+  }
   return (
     <div>
-      {cats}
-      <ul>
-        {cats.map((item, index) => (
-          <li key={index}>{item}</li>
+      <select
+        value={selectedcat}
+         onChange={handleselect}
+      >
+        {cats.map((category, index) => (
+          <option key={index} value={category}>
+            {" "}
+            {category}
+          </option>
         ))}
-      </ul>
+      </select>
     </div>
   );
 }

@@ -1,0 +1,3 @@
+2024/07/03-13:19:13.669 2d38 Reusing MANIFEST /root/relational-postgres/Local Storage/leveldb/MANIFEST-000001
+2024/07/03-13:19:13.669 2d38 Recovering log #3
+2024/07/03-13:19:13.669 2d38 Reusing old log /root/relational-postgres/Local Storage/leveldb/000003.log 
